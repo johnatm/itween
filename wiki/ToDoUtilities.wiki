@@ -1,7 +1,5 @@
 #summary Planned, additional utilities
 
-=To Do: Utilities=
-
 ===Reset===
 _Stops and destroys iTweens AND reverts GameObjects to their original state._
 
