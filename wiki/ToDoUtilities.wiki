@@ -10,6 +10,8 @@ _Stops and removes iTweens AND reverts GameObjects to thier original state._
  *iTween.resetChildren(gameObject); (root inclusive)
  *iTween.resetChildren(gameObject,type); (root inclusive)
 
+<hr>
+
 ===Stop===
 _Stops and destroys iTweens_
 
