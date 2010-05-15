@@ -1,0 +1,5 @@
+#summary Planned and implemented movement types
+
+===iTween.propertyTo()===
+ *Possible usage of callbacks to allow management of any float/int value?
+ *Could allow someone to animate anything not currently integrated?
