@@ -1,4 +1,4 @@
-#summary Planned and implemented movement types
+#summary Planned and implemented movement Types
 
 ===iTween.propertyTo()===
  *Possible usage of callbacks to allow management of any float/int value?
