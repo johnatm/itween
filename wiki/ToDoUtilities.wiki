@@ -3,19 +3,19 @@
 ===Reset===
 _Stops and removes iTweens AND reverts GameObjects to thier original state._
 
-Flavors:
-*iTween.resetAll();
-*iTween.reset(gameObject);
-*iTween.reset(gameObject,type);
-*iTween.resetChildren(gameObject); (root inclusive)
-*iTween.resetChildren(gameObject,type); (root inclusive)
+*Flavors:*
+ *iTween.resetAll();
+ *iTween.reset(gameObject);
+ *iTween.reset(gameObject,type);
+ *iTween.resetChildren(gameObject); (root inclusive)
+ *iTween.resetChildren(gameObject,type); (root inclusive)
 
 ===Stop===
 _Stops and destroys iTweens_
 
-Flavors:
-*iTween.stopAll();
-*iTween.stop(gameObject);
-*iTween.stop(gameObject,type);
-*iTween.stopChildren(gameObject); (root inclusive)
-*iTween.stopChildren(gameObject,type); (root inclusive)
+*Flavors:*
+ *iTween.stopAll();
+ *iTween.stop(gameObject);
+ *iTween.stop(gameObject,type);
+ *iTween.stopChildren(gameObject); (root inclusive)
+ *iTween.stopChildren(gameObject,type); (root inclusive)
