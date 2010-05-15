@@ -4,4 +4,6 @@
 
 -rotateTo needs to use transform.Rotate and differential setting like moveTo
 
--
+-Make sure move methods all have look additions (target and transform)
+
+-Investigate and implement more bezier movement path options (from script wiki?) and perhaps rename/classify current bezier as "weighted" or more proper term fitting to its behavior?
