@@ -1,4 +1,4 @@
-#summary Planned, additional utilities
+#summary Planned, additional Utilities
 
 ===Resume===
 _Resumes (if currently paused (enabled == false?) iTweens
