@@ -1,7 +1,7 @@
 #summary Planned, additional Utilities
 
 ===Resume===
-_Resumes (if currently paused (enabled == false?) iTweens
+_Resumes (if currently paused (enabled == false?) iTweens (since iTween (JS) now operates in Update/FixedUpdate a simple deactivation of the script will pause the application of the iTween)
 
 *Flavors:*
  *iTween.resumeAll();
@@ -13,7 +13,7 @@ _Resumes (if currently paused (enabled == false?) iTweens
 <hr>
 
 ===Pause===
-_Pauses iTweens
+_Pauses iTweens (since iTween (JS) now operates in Update/FixedUpdate a simple deactivation of the script will pause the application of the iTween)
 
 *Flavors:*
  *iTween.pauseAll();
