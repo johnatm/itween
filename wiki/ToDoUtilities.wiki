@@ -1,7 +1,9 @@
 =To Do: Utilities=
 
+#Planned, additional utilities
+
 ===Reset===
-_Stops and removes iTweens AND reverts GameObjects to thier original state._
+_Stops and destroys iTweens AND reverts GameObjects to their original state._
 
 *Flavors:*
  *iTween.resetAll();
@@ -21,3 +23,28 @@ _Stops and destroys iTweens_
  *iTween.stop(gameObject,type);
  *iTween.stopChildren(gameObject); (root inclusive)
  *iTween.stopChildren(gameObject,type); (root inclusive)
+
+
+<hr>
+
+===Complete===
+_Stops, destroys and instantly fast-forwards iTweens to their destination_
+
+*Flavors:*
+ *iTween.completeAll();
+ *iTween.complete(gameObject);
+ *iTween.complete(gameObject,type);
+ *iTween.completeChildren(gameObject); (root inclusive)
+ *iTween.completeChildren(gameObject,type); (root inclusive)
+
+<hr>
+
+===Count===
+_Returns an int of iTweens_
+
+*Flavors:*
+ *iTween.countAll();
+ *iTween.count(gameObject);
+ *iTween.count(gameObject,type);
+ *iTween.countChildren(gameObject); (root inclusive)
+ *iTween.countChildren(gameObject,type); (root inclusive)
