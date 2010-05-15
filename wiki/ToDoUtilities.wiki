@@ -1,5 +1,29 @@
 #summary Planned, additional utilities
 
+===Resume===
+_Resumes (if currently paused (enabled == false?) iTweens
+
+*Flavors:*
+ *iTween.resumeAll();
+ *iTween.resume(gameObject);
+ *iTween.resume(gameObject,type);
+ *iTween.resumeChildren(gameObject); (root inclusive)
+ *iTween.resumeChildren(gameObject,type); (root inclusive)
+
+<hr>
+
+===Pause===
+_Pauses iTweens
+
+*Flavors:*
+ *iTween.pauseAll();
+ *iTween.pause(gameObject);
+ *iTween.pause(gameObject,type);
+ *iTween.pauseChildren(gameObject); (root inclusive)
+ *iTween.pauseChildren(gameObject,type); (root inclusive)
+
+<hr>
+
 ===Reset===
 _Stops and destroys iTweens AND reverts GameObjects to their original state._
 
