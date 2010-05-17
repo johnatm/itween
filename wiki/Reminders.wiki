@@ -1,8 +1,12 @@
 #summary Rough list of Bob's To Dos
+ 
+ *Make sure "almost" everything plays well with GUITextures and similar
 
--shake() is deprecated; we now have shakePosition(), shakeScale(), shakeRotation()
+ *Make sure modifications are *ONLY* done if the component exists!  (i.e. fade only if we have a renderer)
 
--Possibly leverage ASDoc or JavaDoc to auto generate documentation?
+ *shake() is deprecated; we now have shakePosition(), shakeScale(), shakeRotation()
+
+ *Possibly leverage ASDoc or JavaDoc to auto generate documentation?
 
 -Make sure move methods all have look additions (target and transform)
 
