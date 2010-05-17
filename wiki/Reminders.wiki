@@ -4,7 +4,7 @@
 
 -Simplify stopChildren and countChildren (always reuse existing tools)! - Test scenario should be a hierarchy of pingPong loops!
 
--rotateTo needs to use transform.Rotate and differential setting like moveTo
+-rotateTo needs to use transform.Rotate and differential setting like moveTo because it ignores "local" usage.
 
 -Make sure move methods all have look additions (target and transform)
 
