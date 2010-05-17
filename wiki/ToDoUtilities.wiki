@@ -24,15 +24,15 @@ _Pauses iTweens (since iTween (JS) now operates in Update/FixedUpdate a simple d
 
 <hr>
 
-===Reset===
-_Stops and destroys iTweens AND reverts GameObjects to their original state._
+===Cancel===
+_Stops and destroys iTweens AND reverts GameObjects to their original pre-tweened state._
 
 *Flavors:*
- *iTween.resetAll();
- *iTween.reset(gameObject);
- *iTween.reset(gameObject,type);
- *iTween.resetChildren(gameObject); (root inclusive)
- *iTween.resetChildren(gameObject,type); (root inclusive)
+ *iTween.cancelAll();
+ *iTween.cancel(gameObject);
+ *iTween.cancel(gameObject,type);
+ *iTween.cancelChildren(gameObject); (root inclusive)
+ *iTween.cancelChildren(gameObject,type); (root inclusive)
 
 <hr>
 
