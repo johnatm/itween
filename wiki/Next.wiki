@@ -1,0 +1,1 @@
+Finish and add shakePosition(), shakeScale(), shakeRotation() their registers are already in.
