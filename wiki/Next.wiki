@@ -1,1 +1,3 @@
+#summary Where I'm and and what needs to be done next development session
+
 Finish and add shakePosition(), shakeScale(), shakeRotation() their registers are already in.
