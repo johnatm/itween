@@ -1,7 +1,5 @@
 #summary Rough list of Bob's To Dos
 
--Add "elastic" transition type since it was requested at one point
-
 -Possibly leverage ASDoc or JavaDoc to auto generate documentation?
 
 -Simplify stopChildren and countChildren (always reuse existing tools)! - Test scenario should be a hierarchy of pingPong loops!
