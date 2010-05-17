@@ -1,5 +1,7 @@
 #summary Rough list of Bob's To Dos
- 
+
+ * Need to do an additional check before application to decide that property to modify?  (i.e. if a guiTexture component is encountered then scale should be managed on the pixelOffset)??
+
  * Make sure "almost" everything plays well with GUITextures and similar
 
  * Make sure modifications are *ONLY* done if the component exists!  (i.e. fade only if we have a renderer)
