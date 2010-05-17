@@ -2,10 +2,6 @@
 
 -Possibly leverage ASDoc or JavaDoc to auto generate documentation?
 
--Simplify stopChildren and countChildren (always reuse existing tools)! - Test scenario should be a hierarchy of pingPong loops!
-
--rotateTo needs to use transform.Rotate and differential setting like moveTo because it ignores "local" usage.
-
 -Make sure move methods all have look additions (target and transform)
 
 -Investigate and implement more bezier movement path options (from script wiki?) and perhaps rename/classify current bezier as "weighted" or more proper term fitting to its behavior?
