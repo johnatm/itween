@@ -1,5 +1,5 @@
 #summary Rough list of Bob's To Dos
- * Include overrides to specifically announce the request to animate something that isn't a GameObject? (i.e. sending a GUITexture???)
+ * Include overrides to specifically announce the request to animate something that isn't a GameObject? (i.e. sending a GUITexture???) Do we need this for args to ensure things are affected correctly?  If so ensure component type is checked before attempting any modifications!
 
  * Add any deprecated functions but include a error throw to announce it.
 
