@@ -1,4 +1,7 @@
 #summary Rough list of Bob's To Dos
+ * Add any deprecated functions but include a error throw to announce it.
+
+ * Contemplate default space for every method (I.e. Shakes should use local where moves should use world) 
 
  * Need to do an additional check before application to decide that property to modify?  (i.e. if a guiTexture component is encountered then scale should be managed on the pixelOffset)??
 
