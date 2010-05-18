@@ -1,1 +1,13 @@
 #summary Where I am and and what needs to be done next development session
+ * Stab
+ * Color (children)
+ * MoveToBezier
+ * Fade (children)
+ * PropertyTo 
+ * CameraFade (color)
+ * Look
+ * LookUpdate
+ * MoveUpdate
+ * Move needs look functionality
+ * New beziers!
+ 
