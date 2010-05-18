@@ -1,3 +1,5 @@
 #summary Things to be added/corrected on next doc creation
 
--New stop methods (note how incredibly lazy you can be with "type" passing! - i.e. "rotateTo" can be just "rotate" or even "r" if you are REALLY that lazy).
+ * audioTo can now take either a GameObject or an Audiosource
+
+ * New stop methods (note how incredibly lazy you can be with "type" passing! - i.e. "rotateTo" can be just "rotate" or even "r" if you are REALLY that lazy).
