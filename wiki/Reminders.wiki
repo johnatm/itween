@@ -1,4 +1,6 @@
 #summary Rough list of Bob's To Dos
+ * Include overrides to specifically announce the request to animate something that isn't a GameObject? (i.e. sending a GUITexture???)
+
  * Add any deprecated functions but include a error throw to announce it.
 
  * Contemplate default space for every method (I.e. Shakes should use local where moves should use world) 
