@@ -1,6 +1,6 @@
 #summary Rough list of Bob's To Dos
 
- * Added value() and property() - need documentation for their workflow
+ * Added value() and property() - need documentation for their workflow [start,begin,a,b,end]
 
  * rotateTo() and rotateFrom() only set in world space now rooted from Quaternion.identity
 
