@@ -1,5 +1,4 @@
 #summary Where I am and and what needs to be done next development session
- * Stab
  * Color (children)
  * MoveToBezier
  * Fade (children)
