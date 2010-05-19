@@ -1,7 +1,10 @@
 #summary Rough list of Bob's To Dos
- * rotateTo and rotateFrom only set in world space now rooted from Quaternion.identity
 
- * colorTo can also affect alpha now
+ * Added value() and property() - need documentation for their workflow
+
+ * rotateTo() and rotateFrom() only set in world space now rooted from Quaternion.identity
+
+ * colorTo() can also affect alpha now
 
  * note how "defaults" have DRASTICALLY changed and simplified
 
