@@ -1,4 +1,6 @@
 #summary Rough list of Bob's To Dos
+ * moveToUpdate's "position" can now take a Vector3 or a Transform
+
  * lookTo and lookToUpdate only work in world space now and can accept a Transform or a Vector3 now
 
  * lookTo/lookFrom only accepts "target" now and automatically determines if its a Vector3 or a Transform THIS WILL APPLY to the update version of look to!!!
