@@ -1,4 +1,6 @@
 #summary Rough list of Bob's To Dos
+ * lookTo and lookToUpdate only work in world space now
+
  * lookTo/lookFrom only accepts "target" now and automatically determines if its a Vector3 or a Transform THIS WILL APPLY to the update version of look to!!!
 
  * Make all components that use pixelInset (guiTexture) scale from the center?
