@@ -1,7 +1,7 @@
 #summary Where I am and and what needs to be done next development session
  * MoveToBezier
  * CameraFade (color)
- * Move needs look functionality
+ * Move needs look functionality and orientToPath
  * New beziers!
  * New Wordpress powered support site
  * New examples
