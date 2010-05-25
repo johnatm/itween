@@ -7,8 +7,6 @@
 
  * Make all components that use pixelInset (guiTexture) scale from the center?
 
- * For value dial ins maybe just recall the tween with a percentage of 1????
-
  * Added value() and property() - need documentation for their workflow [start,begin,a,b,end]
 
  * rotateTo() and rotateFrom() only set in world space now rooted from Quaternion.identity
