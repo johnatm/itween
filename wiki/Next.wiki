@@ -7,4 +7,4 @@
  * New beziers!
  * New Wordpress powered support site
  * New examples
- * Ensure old video are stated as old
+ * Ensure old videos are stated as old
