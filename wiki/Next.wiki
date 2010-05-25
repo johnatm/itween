@@ -6,3 +6,5 @@
  * New Wordpress powered support site
  * New examples
  * Ensure old videos are stated as old
+ * setTimout()?
+ * setInterval()?
