@@ -8,3 +8,4 @@
  * Ensure old videos are stated as old
  * setTimout()?
  * setInterval()?
+ * look at all compiled emails on bezier/splines/curves
