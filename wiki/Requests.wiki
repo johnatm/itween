@@ -1,4 +1,4 @@
-#Possible additions.
+#summary Possible additions.
 
  * CameraColorTo - for camera fades
  * Having all movement methods return a refrence to the iTween script instance to open up the possibility for : var myTween : iTween = iTween.moveTo();  myTween.stop();
