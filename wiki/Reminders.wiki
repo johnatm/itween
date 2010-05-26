@@ -1,4 +1,6 @@
 #summary Rough list of Bob's To Dos
+ * moveBezier now defaults it's transition to easeInOutSine
+
  * moveToUpdate's "position" can now take a Vector3 or a Transform
 
  * lookTo and lookToUpdate only work in world space now and can accept a Transform or a Vector3 now
