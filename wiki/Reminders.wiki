@@ -1,4 +1,6 @@
 #summary Rough list of Bob's To Dos
+ * Add regular case in addition to camel case? moveTo and MoveTo
+
  * moveBezier now defaults it's transition to easeInOutSine
 
  * moveToUpdate's "position" can now take a Vector3 or a Transform
