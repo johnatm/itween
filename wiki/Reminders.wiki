@@ -1,4 +1,6 @@
 #summary Rough list of Bob's To Dos
+ * moveToBezier will now become curveTo and curveFrom a property of "overshoot":Boolean will be used to decide if the new curve equation or the old one is used.
+
  * Add regular case in addition to camel case? moveTo and MoveTo
 
  * moveBezier now defaults it's transition to easeInOutSine
