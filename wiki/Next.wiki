@@ -1,7 +1,7 @@
 #summary Where I am and and what needs to be done next development session
- * Rename/rethnink curveTo and moveToBezier interface naming!
- * Finish curve! Lookto, froms, loops
+ * Finish curve! lookTarget, orientToPath, curveFrom, pingPong, loop
  * //CHECK ON var parsedBeziers: Array = ParseBeziers(beziers,args["looped"]);
+ * Rename/rethnink curveTo and moveToBezier interface naming!
  * MoveToBezier
  * CameraFade (color)
  * New beziers!
