@@ -1,10 +1,7 @@
 #summary Where I am and and what needs to be done next development session
  * Finish curve! orientToPath, curveFrom, pingPong, loop
  * //CHECK ON var parsedBeziers: Array = ParseBeziers(beziers,args["looped"]);
- * Rename/rethnink curveTo and moveToBezier interface naming!
- * MoveToBezier
- * CameraFade (color)
- * New beziers!
+ * cameraFadeTo, cameraFadeFrom (color)
  * New Wordpress powered support site
  * New examples
  * Ensure old videos are stated as old
