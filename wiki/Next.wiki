@@ -1,5 +1,5 @@
 #summary Where I am and and what needs to be done next development session
- * Possibly rename everything to Pascal case instead of camel case for all the C# heads?
+ * Possibly rename everything to Pascal case instead of camel case for all the C# heads? If this does get done ensure all internal function calls are calling the correct Pascal case method
  * Finish curve! orientToPath, curveFrom, pingPong, loop
  * //CHECK ON var parsedBeziers: Array = ParseBeziers(beziers,args["looped"]);
  * cameraFadeTo, cameraFadeFrom using "color" property and "camera" property (fade between cameras?
