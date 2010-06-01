@@ -1,7 +1,7 @@
 #summary Where I am and and what needs to be done next development session
  * Finish curve! orientToPath, curveFrom, pingPong, loop
  * //CHECK ON var parsedBeziers: Array = ParseBeziers(beziers,args["looped"]);
- * cameraFadeTo, cameraFadeFrom (color)
+ * cameraFadeTo, cameraFadeFrom using "color" property and "camera" property (fade between cameras?
  * New Wordpress powered support site
  * New examples
  * Ensure old videos are stated as old
