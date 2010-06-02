@@ -1,5 +1,7 @@
 #summary Rough list of Bob's To Dos
- * addCameraFade has an override that relies on the defaultDepth from cameraFadeDefaults 
+ * addCameraFade has an overload that relies on the defaultDepth from cameraFadeDefaults 
+
+ * document: cameraFadeTo, cameraFadeFrom, addCameraFade x2, swapCameraFadeDepth, destroyCameraFade
 
  * moveToBezier will now become curveTo and curveFrom a property of "classic":Boolean will be used to decide if the new curve equation or the old one is used.  "bezier":[Vector3] is now "points":[Vector3]
 
