@@ -1,4 +1,6 @@
 #summary Rough list of Bob's To Dos
+ * addCameraFade has an override that relies on the defaultDepth from cameraFadeDefaults 
+
  * moveToBezier will now become curveTo and curveFrom a property of "classic":Boolean will be used to decide if the new curve equation or the old one is used.  "bezier":[Vector3] is now "points":[Vector3]
 
  * Add regular case in addition to camel case? moveTo and MoveTo
