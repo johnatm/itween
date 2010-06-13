@@ -1,4 +1,13 @@
-#summary Rough list of Bob's To Dos
+#summary Rough list of what's new
+
+ * transition is now EaseType
+
+ * isLocal is now Space
+
+
+
+
+
  * addCameraFade has an overload that relies on the defaultDepth from cameraFadeDefaults 
 
  * document: cameraFadeTo, cameraFadeFrom, addCameraFade x2, swapCameraFadeDepth, destroyCameraFade
