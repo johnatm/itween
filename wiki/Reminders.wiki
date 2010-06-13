@@ -4,8 +4,7 @@
 
  * isLocal is now Space
 
-
-
+ * Add FAQ to next support site
 
 
  * addCameraFade has an overload that relies on the defaultDepth from cameraFadeDefaults 
