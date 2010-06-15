@@ -1,5 +1,7 @@
 #summary Rough list of what's new
 
+ * Issue from Vimeo comment?
+
  * transition is now EaseType
 
  * isLocal is now Space
