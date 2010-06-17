@@ -1,5 +1,7 @@
 #summary Rough list of what's new
 
+ * easeType and space can be set via enums (help the C# heads) or strings (help the JS heads)
+
  * Issue from Vimeo comment?
 
  * transition is now EaseType
