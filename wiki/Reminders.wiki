@@ -1,6 +1,6 @@
 #summary Rough list of what's new
 
- * easeType and space can be set via enums (help the C# heads) or strings (help the JS heads) string case usage doesn't matter to further increase usability
+ * loopType, easeType and space can be set via enums (help the C# heads) or strings (help the JS heads) string case usage doesn't matter to further increase usability
 
  * Issue from Vimeo comment?
 
