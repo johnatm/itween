@@ -1,4 +1,5 @@
 #summary Where I am and and what needs to be done next development session
+ * Make sure all methods dial in correctly
  * Add all documentation
  * Transfer over the ease curves and continue the MoveTo skeleton for the C# version.
  * Rename everything to Pascal case instead of camel case for all the C# heads. If this does get done ensure all internal function calls are calling the correct Pascal case method
