@@ -1,4 +1,10 @@
 #summary Where I am and and what needs to be done next development session
+ * MoveFrom and MoveTo should use "isLocal" and no "space"
+ * MoveBy and MoveAdd should use "space" and no "isLocal"
+ * RotateFrom and RotateTo should use "isLocal" and no "space"
+ * RotateBy and RotateAdd should use "space" and no "islocal"
+
+
  * Make sure all methods dial in correctly
  * Add all documentation
  * Transfer over the ease curves and continue the MoveTo skeleton for the C# version.
