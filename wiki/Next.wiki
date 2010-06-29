@@ -1,5 +1,8 @@
 #summary Where I am and and what needs to be done next development session
  * Add lookTarget calculation to Shake and Punch
+ * Continue to add all properties to all methods (orient, look, etc...)
+
+ * TEST!! TEST!! TEST!! TEST!! TEST!! TEST!! TEST!! TEST!!
 
  * MoveFrom and MoveTo should use "isLocal" and no "space"
  * MoveBy and MoveAdd should use "space" and no "isLocal"
