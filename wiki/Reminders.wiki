@@ -1,4 +1,5 @@
 #summary Rough list of what's new
+ * Any iTweens that could interfere with physics need to have EnableKinematic run in TweenStart 
 
  * Make sure Audio and Stab don't toggle kinematic
 
