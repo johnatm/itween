@@ -3,8 +3,11 @@
  * Maybe revisit ConflictCheck and test out multiple situations?
  * Add lookTarget calculation to Shake and Punch
  * Continue to add all properties to all methods (orient, look, etc...)
-
+ 
+ * Figure out a good solution for using iTween with GUI loop!
+ 
  * TEST!! TEST!! TEST!! TEST!! TEST!! TEST!! TEST!! TEST!!
+ * Test on GUITextures and GUIText
 
  * MoveFrom and MoveTo should use "isLocal" and no "space"
  * MoveBy and MoveAdd should use "space" and no "isLocal"
