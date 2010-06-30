@@ -1,5 +1,7 @@
 #summary Rough list of what's new
 
+ * Make sure Audio and Stab don't toggle kinematic
+
  * All iTweens can now be used in Update loops!!!!!
 
  * Numeric values can be passed as a float, int, or double and are internally cast to floats to ensure maximum ease of use: "x":3, "x":3f, "x":3.3
