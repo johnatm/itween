@@ -1,5 +1,6 @@
 #summary Rough list of what's new
- * Reevaluate property names and case.... should "audioSource" in AudioTo/AudioFrom be "AudioSource" ???????
+ * Reevaluate property names and case.... should "audioSource" in AudioTo/AudioFrom be "AudioSource" ??????? If so make this change in doc code for everything changed as well.
+
 
  * Any iTweens that could interfere with physics need to have EnableKinematic run in TweenStart 
 
