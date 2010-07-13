@@ -1,6 +1,4 @@
 #summary Rough list of what's new
- * Reevaluate property names and case.... should "audioSource" in AudioTo/AudioFrom be "AudioSource" ??????? If so make this change in doc code for everything changed as well.
-
  * Default easeType is now easeOutExpo so that any usage of iTween in an Update loop will work as expected (can easily be overridden as a global by changing iTween.Defaults.easeType)
 
  * All parameters can be sent in any case structure desired (i.e. "easeType" can be sent as "easetype" or even "EASETYPE")
