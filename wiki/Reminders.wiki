@@ -1,5 +1,21 @@
 #summary Rough list of what's new
 
+ * Double check rotation dial ins using following since it appears to not return rotation to 0:
+	GameObject go;
+	int delay = 0;
+	
+	void Start(){
+		go=gameObject;
+	   iTween.RotateBy(go,iTween.Hash("x",1,"delay",delay++));
+	   iTween.RotateBy(go,iTween.Hash("x",,"delay",delay++));
+	   iTween.RotateAdd(go,iTween.Hash("x",30,"delay",delay++));
+	   iTween.RotateAdd(go,iTween.Hash("x",-30,"delay",delay++));
+	   iTween.MoveTo(go,iTween.Hash("x",1,"delay",delay++));
+	   iTween.MoveTo(go,iTween.Hash("x",0,"delay",delay++));
+	   iTween.MoveAdd(go,iTween.Hash("x",2,"delay",delay++));
+	   iTween.MoveAdd(go,iTween.Hash("x",-2,"delay",delay++));
+	}
+
  * Add look axis usage properties into look methods so users can choose which vector direction will be used to look with
 
  * Double check ValueTo to ensure all values dial in correctly
