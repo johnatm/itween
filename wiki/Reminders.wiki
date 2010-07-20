@@ -2,6 +2,8 @@
 
  * Add look axis usage properties into look methods so users can choose which vector direction will be used to look with
 
+ * Double check ValueTo to ensure all values dial in correctly
+
  * Default easeType is now easeOutExpo so that any usage of iTween in an Update loop will work as expected (can easily be overridden as a global by changing iTween.Defaults.easeType)
 
  * All parameters can be sent in any case structure desired (i.e. "easeType" can be sent as "easetype" or even "EASETYPE")
