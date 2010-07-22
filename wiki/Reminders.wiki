@@ -16,6 +16,10 @@
 	   iTween.MoveAdd(go,iTween.Hash("x",-2,"delay",delay++));
 	}
 
+ * Add descriptions to every property so someone will know what "axis" does
+
+ * Possibly look into changing "smoothtime" since in a MoveUpdate the look and movement would be locked to the same values
+
  * Add look axis usage properties into look methods so users can choose which vector direction will be used to look with
 
  * Double check ValueTo to ensure all values dial in correctly
