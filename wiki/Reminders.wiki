@@ -1,4 +1,5 @@
 #summary Rough list of what's new
+ * Test MoveTo with a "path" for both Vector3[] and Transforms[]
 
  * Double check rotation dial ins using following since it appears to not return rotation to 0:
 	GameObject go;
