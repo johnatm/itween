@@ -1,12 +1,10 @@
 #summary Rough list of what's new
 
- * Add "path" to MoveFrom()
+ * Add CameraFade and utilities
 
- * Add "orienttopath" to MoveTo and MoveFrom with "path"
+ * Add Cancel utilities
 
- * Look into individual time property for look functionality to handle speed (since it's super slow on long "path" runs with long time param 
-
- * Add Vector2[] entry possibility to "path" property for GUI stuff.
+ * Add Complete utilities
 
  * Come up with GUI focused movement methods for manipulating their rects.
 
