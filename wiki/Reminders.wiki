@@ -1,5 +1,14 @@
 #summary Rough list of what's new
- * Test MoveTo with a "path" for both Vector3[] and Transforms[]
+
+ * Add "path" to MoveFrom()
+
+ * Add "orienttopath" to MoveTo and MoveFrom with "path"
+
+ * Look into individual time property for look functionality to handle speed (since it's super slow on long "path" runs with long time param 
+
+ * Add Vector2[] entry possibility to "path" property for GUI stuff.
+
+ * Come up with GUI focused movement methods for manipulating their rects.
 
  * Double check rotation dial ins using following since it appears to not return rotation to 0:
 	GameObject go;
