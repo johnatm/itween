@@ -1,6 +1,0 @@
-#summary Where I am and and what needs to be done next development session
- * Add UpdateMove, UpdateColor, UpdateRotation, etc... instead of current update methods
- * Maybe revisit ConflictCheck and test out multiple situations?
- * Add lookTarget calculation to Shake and Punch
- * Continue to add all properties to all methods (orient, look, etc...)
- 
