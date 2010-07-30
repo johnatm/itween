@@ -103,8 +103,6 @@
 
  * Make sure pause and resume throws a kinematic toggle if need be!!
 
- * CREATE AN ALL ENCOMPASSING TEST BED! 
-
  * Make sure C# usage of JS version works on iPhone!
 
  * Note in documentation that moves default to World now
