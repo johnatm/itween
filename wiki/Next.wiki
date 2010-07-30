@@ -4,21 +4,3 @@
  * Add lookTarget calculation to Shake and Punch
  * Continue to add all properties to all methods (orient, look, etc...)
  
- * Figure out a good solution for using iTween with GUI loop!
- 
- * TEST!! TEST!! TEST!! TEST!! TEST!! TEST!! TEST!! TEST!!
- * Test on GUITextures and GUIText
-
- * MoveFrom and MoveTo should use "isLocal" and no "space"
- * MoveBy and MoveAdd should use "space" and no "isLocal"
- * RotateFrom and RotateTo should use "isLocal" and no "space"
- * RotateBy and RotateAdd should use "space" and no "islocal"
-
-
- * Make sure all methods dial in correctly
- * Add all documentation
- * Transfer over the ease curves and continue the MoveTo skeleton for the C# version.
- * Rename everything to Pascal case instead of camel case for all the C# heads. If this does get done ensure all internal function calls are calling the correct Pascal case method
- * New Wordpress powered support site
- * New examples
- * Ensure old videos are stated as old
