@@ -2,13 +2,11 @@
 
  * Tweak path shape construction (not using original start control point) so it's more predictable in a loop. Test on a circle shape as well. 
 
- * Add CameraFade and utilities
-
  * Add Cancel utilities
 
  * Add Complete utilities
 
- * Come up with GUI focused movement methods for manipulating their rects.
+ * Come up with GUI focused movement methods for manipulating their rects. (fail)
 
  * Double check rotation dial ins using following since it appears to not return rotation to 0:
 	GameObject go;
@@ -26,9 +24,7 @@
 	   iTween.MoveAdd(go,iTween.Hash("x",-2,"delay",delay++));
 	}
 
- * Add descriptions to every property so someone will know what "axis" does
-
- * Possibly look into changing "smoothtime" since in a MoveUpdate the look and movement would be locked to the same values
+ * Add descriptions to every property so someone will know what say "axis" does
 
  * Add look axis usage properties into look methods so users can choose which vector direction will be used to look with
 
