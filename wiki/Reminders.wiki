@@ -1,5 +1,7 @@
 #summary Rough list of what's new
 
+ * Include information for minimum and full overloads and which ones don't have them (ValueTo and ValueFrom, more?)
+
  * LookTo with a Vector3 is not working
 
  * Tweak path shape construction (not using original start control point) so it's more predictable in a loop. Test on a circle shape as well. 
