@@ -1,52 +1,22 @@
 #summary Rough list of what's new
 
- * Double check minimum summaries to make sure they are accurate
-
- * By, Add and Move with a "path" do not dial in
-
- * Double check all documentation espeically for short versions.
+ * Double check all documentation especially for short versions.
 
  * Include information for minimum and full overloads and which ones don't have them (ValueTo and ValueFrom, more?)
 
  * Tweak path shape construction (not using original start control point) so it's more predictable in a loop. Test on a circle shape as well. 
 
- * Add Cancel utilities
+ * Add Cancel utilities (maybe)
 
- * Add Complete utilities
-
- * Come up with GUI focused movement methods for manipulating their rects. (fail)
-
- * Double check rotation dial ins using following since it appears to not return rotation to 0:
-	GameObject go;
-	int delay = 0;
-	
-	void Start(){
-		go=gameObject;
-	   iTween.RotateBy(go,iTween.Hash("x",1,"delay",delay++));
-	   iTween.RotateBy(go,iTween.Hash("x",,"delay",delay++));
-	   iTween.RotateAdd(go,iTween.Hash("x",30,"delay",delay++));
-	   iTween.RotateAdd(go,iTween.Hash("x",-30,"delay",delay++));
-	   iTween.MoveTo(go,iTween.Hash("x",1,"delay",delay++));
-	   iTween.MoveTo(go,iTween.Hash("x",0,"delay",delay++));
-	   iTween.MoveAdd(go,iTween.Hash("x",2,"delay",delay++));
-	   iTween.MoveAdd(go,iTween.Hash("x",-2,"delay",delay++));
-	}
-
- * Add descriptions to every property so someone will know what say "axis" does
+ * Add Complete utilities (maybe)
 
  * Add look axis usage properties into look methods so users can choose which vector direction will be used to look with
-
- * Double check ValueTo to ensure all values dial in correctly
 
  * Default easeType is now easeOutExpo so that any usage of iTween in an Update loop will work as expected (can easily be overridden as a global by changing iTween.Defaults.easeType)
 
  * All parameters can be sent in any case structure desired (i.e. "easeType" can be sent as "easetype" or even "EASETYPE")
 
- * Any iTweens that could interfere with physics need to have EnableKinematic run in TweenStart 
-
- * Make sure Audio and Stab don't toggle kinematic
-
- * All iTweens can now be used in Update loops!!!!!
+ * All iTweens can now be used in Update loops
 
  * Numeric values can be passed as a float, int, or double and are internally cast to floats to ensure maximum ease of use: "x":3, "x":3f, "x":3.3
 
@@ -60,16 +30,9 @@
 
  * Add FAQ to next support site
 
-
- * addCameraFade has an overload that relies on the defaultDepth from cameraFadeDefaults 
-
  * document: cameraFadeTo, cameraFadeFrom, addCameraFade x2, swapCameraFadeDepth, destroyCameraFade
 
- * moveToBezier will now become curveTo and curveFrom a property of "classic":Boolean will be used to decide if the new curve equation or the old one is used.  "bezier":[Vector3] is now "points":[Vector3]
-
- * Add regular case in addition to camel case? moveTo and MoveTo
-
- * moveBezier now defaults it's transition to easeInOutSine
+ * moveToBezier is now "path" parameter in Move methods
 
  * moveToUpdate's "position" can now take a Vector3 or a Transform
 
