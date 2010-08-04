@@ -1,6 +1,6 @@
 #summary Rough list of what's new
 
- * By and Add methods do not dial in
+ * By, Add and Move with a "path" do not dial in
 
  * Double check all documentation espeically for short versions.
 
