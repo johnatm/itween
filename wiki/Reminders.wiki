@@ -1,5 +1,7 @@
 #summary Rough list of what's new
 
+ * Double check minimum summaries to make sure they are accurate
+
  * By, Add and Move with a "path" do not dial in
 
  * Double check all documentation espeically for short versions.
