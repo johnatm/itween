@@ -12,7 +12,7 @@
 
  * Add Complete utilities (maybe)
 
- * Add look axis usage properties into look methods so users can choose which vector direction will be used to look with
+ * 
 
  * Default easeType is now easeOutExpo so that any usage of iTween in an Update loop will work as expected (can easily be overridden as a global by changing iTween.Defaults.easeType)
 
@@ -20,66 +20,3 @@
 
  * All iTweens can now be used in Update loops
 
- * Numeric values can be passed as a float, int, or double and are internally cast to floats to ensure maximum ease of use: "x":3, "x":3f, "x":3.3
-
- * loopType, easeType and space can be set via enums (help the C# heads) or strings (help the JS heads) string case usage doesn't matter to further increase usability
-
- * Issue from Vimeo comment?
-
- * transition is now EaseType
-
- * isLocal is now Space
-
- * Add FAQ to next support site
-
- * document: cameraFadeTo, cameraFadeFrom, addCameraFade x2, swapCameraFadeDepth, destroyCameraFade
-
- * moveToBezier is now "path" parameter in Move methods
-
- * moveToUpdate's "position" can now take a Vector3 or a Transform
-
- * lookTo and lookToUpdate only work in world space now and can accept a Transform or a Vector3 now
-
- * lookTo/lookFrom only accepts "target" now and automatically determines if its a Vector3 or a Transform THIS WILL APPLY to the update version of look to!!!
-
- * Make all components that use pixelInset (guiTexture) scale from the center?
-
- * Added value() and property() - need documentation for their workflow [start,begin,a,b,end]
-
- * rotateTo() and rotateFrom() only set in world space now rooted from Quaternion.identity
-
- * colorTo() can also affect alpha now
-
- * note how "defaults" have DRASTICALLY changed and simplified
-
- * Include overrides to specifically announce the request to animate something that isn't a GameObject? (i.e. sending a GUITexture???) Do we need this for args to ensure things are affected correctly?  If so ensure component type is checked before attempting any modifications!
-
- * Add any deprecated functions but include a error throw to announce it.
-
- * Contemplate default space for every method (I.e. Shakes should use local where moves should use world) 
-
- * Need to do an additional check before application to decide that property to modify?  (i.e. if a guiTexture component is encountered then scale should be managed on the pixelOffset)??
-
- * Make sure "almost" everything plays well with GUITextures and similar
-
- * Make sure modifications are *ONLY* done if the component exists!  (i.e. fade only if we have a renderer)
-
- * shake() is deprecated; we now have shakePosition(), shakeScale(), shakeRotation()
-
- * Possibly leverage ASDoc or JavaDoc to auto generate documentation?
-
- * Make sure move methods all have look additions (target and transform)
-
- * Investigate and implement more bezier movement path options (from script wiki?) and perhaps rename/classify current bezier as "weighted" or more proper term fitting to its behavior?
-
- * Need to add additional FixedUpdate fired Rigidbody animations similar to AniMate's approach? Or is current kinematic toggle sufficient? "This is necessary if you want to animate a rigidbody that interacts with physics." "...animation has to be done in FixedUpdate and the position/rotation applied through MovePosition and MoveRotation."
-
- * Make sure pause and resume throws a kinematic toggle if need be!!
-
- * Make sure C# usage of JS version works on iPhone!
-
- * Note in documentation that moves default to World now
-
- * Note in documentation that rotates default to Local now
-
- * Build Wordpress driven support site and leverage google code for source delivery (no more tedious zip releases on support page)!
